@@ -1,0 +1,18 @@
+Simple Mandrill Email Form (jQuery)
+
+
+Requires an API key from https://mandrillapp.com/
+email.js line 10:        'key': 'MANDRILL_API_KEY', //Insert your unique Mandrill API Key
+
+
+Either copy and paste the javascript into a JS file in your project,
+or source it from your HTML and add the email.js file to your directory.
+
+email.js lines 20-22:
+  'email': '***Recipient\'s email***', //who should be recieving this email?
+  'name': '***Recipient\'s name***',  //what is their name?
+  'type': 'to'
+
+replace the strings with the desired recipient.
+
+Quick 'n easy. Enjoy
